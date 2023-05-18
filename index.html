@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <title>Potfolio</title>
+</head>
+<body> 
+    <header class="header"><!--Шапка сайта-->
+        <div class="container">
+            <div class="nav__menu">
+                <a href="./index.html" class="logo">Portfolio</a>
+
+            <nav class="navbar">
+                <a href="#!">Главная</a>
+                <a href="#!">Команда</a>
+                <a href="#!">Портфолио</a>
+                <a href="#!">Магазин</a>
+                <a href="#!">Контакты</a>
+                <button class="btnLogin-popup">Войти</button>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="section"> <!--Поле входа и регистрации -->
+        <div class="container">
+            <div class="wrapper"> <!--Поле входа и регистрации -->
+
+            <span class="icon-close">
+                <i class='bx bx-x' ></i>
+            </span>
+
+            <div class="logreg-box">
+
+                <!-- login form -->
+                <div class="form-box login">
+                    <div class="logreg-title">
+                        <h2>Вход</h2>
+                        <p>Пожалуйста войдите чтобы использовать платформу</p>
+                    </div>
+
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                            <input type="password" required>
+                            <label>Пароль</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Запомнить меня</label>
+                            <a href="#!">Забыли пароль?</a>
+                        </div>
+
+                        <button type="submit" class="btn">Войти</button>
+
+                        <div class="logreg-link">
+                            <p>Нет аккаунта? <a href="#!" class="register-link">Заргестрироваться</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                
+                <!-- register form -->
+                <div class="form-box register">
+                    <div class="logreg-title">
+                        <h2>Регистрация</h2>
+                        <p>Предоставьте следующие данные для подтверждения вашей личностиу</p>
+                    </div>
+
+                    <form action="#">
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-user' ></i></span>
+                            <input type="text" required>
+                            <label>Полное имя</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                            <input type="password" required>
+                            <label>Пароль</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox">Я согласен с правилами и условиями</label>
+                        </div>
+
+                        <button type="submit" class="btn">Зарегистрироваться</button>
+
+                        <div class="logreg-link">
+                            <p>У вас уже есть учетная запись? <a href="#!" class="login-link">Войти</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="media-options">
+                <a href="#!"><i class='bx bxl-google' ></i>
+                    <span>Войти через Google</span>
+                </a>
+                <a href="#!"><i class='bx bxl-vk' ></i>
+                    <span>Войти через Вконтакте</span>
+                </a>
+            </div>
+            </div>
+
+
+        </div>
+    </section>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
